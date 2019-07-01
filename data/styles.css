@@ -13,8 +13,6 @@
 }
 .box_2 {
 }
-.box_3 {
-}
 .image {
 }
 .placeholder {
@@ -75,8 +73,6 @@
 .paragraph {
   text-align:left;
 }
-.arrow {
-}
 .text_field {
   color:#000000;
   text-align:left;
@@ -98,12 +94,6 @@
 }
 .radio_button {
   font-size:20px;
-  text-align:left;
-}
-.html_button {
-  text-align:center;
-}
-.tree_node {
   text-align:left;
 }
 .table_cell {
