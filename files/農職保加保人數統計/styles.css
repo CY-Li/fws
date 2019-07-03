@@ -501,17 +501,17 @@
   top:180px;
   width:1165px;
   height:200px;
-  font-family:'微軟正黑體 Bold', '微軟正黑體 Regular', '微軟正黑體';
-  font-weight:700;
+  font-family:'微軟正黑體';
+  font-weight:400;
   font-style:normal;
-  font-size:24px;
+  font-size:20px;
   text-align:left;
 }
 #u1726_text {
   border-width:0px;
   position:absolute;
   left:2px;
-  top:24px;
+  top:38px;
   width:1161px;
   word-wrap:break-word;
 }
@@ -722,12 +722,78 @@
 #u1733 {
   border-width:0px;
   position:absolute;
+  left:647px;
+  top:399px;
+  width:59px;
+  height:30px;
+}
+#u1733_input {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:59px;
+  height:30px;
+  font-family:'微軟正黑體';
+  font-weight:400;
+  font-style:normal;
+  font-size:20px;
+  text-decoration:none;
+  color:#000000;
+  text-align:right;
+}
+#u1734 {
+  border-width:0px;
+  position:absolute;
+  left:671px;
+  top:293px;
+  width:59px;
+  height:30px;
+}
+#u1734_input {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:59px;
+  height:30px;
+  font-family:'微軟正黑體';
+  font-weight:400;
+  font-style:normal;
+  font-size:20px;
+  text-decoration:none;
+  color:#000000;
+  text-align:right;
+}
+#u1735 {
+  border-width:0px;
+  position:absolute;
+  left:671px;
+  top:346px;
+  width:59px;
+  height:30px;
+}
+#u1735_input {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:59px;
+  height:30px;
+  font-family:'微軟正黑體';
+  font-weight:400;
+  font-style:normal;
+  font-size:20px;
+  text-decoration:none;
+  color:#000000;
+  text-align:right;
+}
+#u1736 {
+  border-width:0px;
+  position:absolute;
   left:0px;
   top:0px;
   width:0px;
   height:0px;
 }
-#u1734_div {
+#u1737_div {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -745,18 +811,18 @@
   font-style:normal;
   font-size:18px;
 }
-#u1734 {
+#u1737 {
   border-width:0px;
   position:absolute;
   left:551px;
-  top:208px;
+  top:213px;
   width:382px;
   height:85px;
   font-family:'微軟正黑體 Bold', '微軟正黑體 Regular', '微軟正黑體';
   font-style:normal;
   font-size:18px;
 }
-#u1734_text {
+#u1737_text {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -764,7 +830,7 @@
   width:382px;
   word-wrap:break-word;
 }
-#u1735_div {
+#u1738_div {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -786,11 +852,11 @@
   font-style:normal;
   font-size:20px;
 }
-#u1735 {
+#u1738 {
   border-width:0px;
   position:absolute;
   left:551px;
-  top:202px;
+  top:207px;
   width:110px;
   height:32px;
   font-family:'微軟正黑體';
@@ -798,7 +864,7 @@
   font-style:normal;
   font-size:20px;
 }
-#u1735_text {
+#u1738_text {
   border-width:0px;
   position:absolute;
   left:2px;
@@ -806,7 +872,7 @@
   width:106px;
   word-wrap:break-word;
 }
-#u1736_div {
+#u1739_div {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -825,11 +891,11 @@
   font-style:normal;
   font-size:20px;
 }
-#u1736 {
+#u1739 {
   border-width:0px;
   position:absolute;
   left:551px;
-  top:171px;
+  top:176px;
   width:400px;
   height:25px;
   font-family:'微軟正黑體';
@@ -837,79 +903,13 @@
   font-style:normal;
   font-size:20px;
 }
-#u1736_text {
+#u1739_text {
   border-width:0px;
   position:absolute;
   left:0px;
   top:0px;
   width:400px;
   word-wrap:break-word;
-}
-#u1737 {
-  border-width:0px;
-  position:absolute;
-  left:680px;
-  top:407px;
-  width:61px;
-  height:30px;
-}
-#u1737_input {
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:61px;
-  height:30px;
-  font-family:'微軟正黑體';
-  font-weight:400;
-  font-style:normal;
-  font-size:20px;
-  text-decoration:none;
-  color:#000000;
-  text-align:right;
-}
-#u1738 {
-  border-width:0px;
-  position:absolute;
-  left:709px;
-  top:283px;
-  width:61px;
-  height:30px;
-}
-#u1738_input {
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:61px;
-  height:30px;
-  font-family:'微軟正黑體';
-  font-weight:400;
-  font-style:normal;
-  font-size:20px;
-  text-decoration:none;
-  color:#000000;
-  text-align:right;
-}
-#u1739 {
-  border-width:0px;
-  position:absolute;
-  left:709px;
-  top:344px;
-  width:61px;
-  height:30px;
-}
-#u1739_input {
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:61px;
-  height:30px;
-  font-family:'微軟正黑體';
-  font-weight:400;
-  font-style:normal;
-  font-size:20px;
-  text-decoration:none;
-  color:#000000;
-  text-align:right;
 }
 #u1716_state1 {
   border-width:0px;
