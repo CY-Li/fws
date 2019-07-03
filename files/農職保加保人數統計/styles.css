@@ -1170,12 +1170,13 @@
   font-family:'微軟正黑體';
   font-weight:400;
   font-style:normal;
+  text-align:left;
 }
 #u1749_text {
   border-width:0px;
   position:absolute;
   left:2px;
-  top:45px;
+  top:65px;
   width:1161px;
   word-wrap:break-word;
 }
@@ -1513,7 +1514,7 @@
   border-width:0px;
   position:absolute;
   left:808px;
-  top:299px;
+  top:322px;
   width:98px;
   height:30px;
 }
