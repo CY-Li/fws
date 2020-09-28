@@ -1005,7 +1005,6 @@
                 <option value="請選擇">請選擇</option>
                 <option value="自耕農">自耕農</option>
                 <option value="佃農">佃農</option>
-                <option value="雇農">雇農</option>
                 <option value="蜂農">蜂農</option>
               </select>
             </div>
@@ -1017,14 +1016,15 @@
                 <option value="會員">會員</option>
                 <option value="非會員">非會員</option>
                 <option value="水利會會員">水利會會員</option>
+                <option value="短期軍人">短期軍人</option>
               </select>
             </div>
 
-            <!-- Unnamed (Checkbox) -->
-            <div id="u763" class="ax_default checkbox">
+            <!-- 是否初次參加農保 (Checkbox) -->
+            <div id="u763" class="ax_default checkbox ax_default_hidden" data-label="是否初次參加農保" style="display:none; visibility: hidden">
               <label for="u763_input" style="position: absolute; left: 0px;">
                 <div id="u763_text" class="text ">
-                  <p><span>新加保需二次現勘</span></p>
+                  <p><span>是否初次參加農保</span></p>
                 </div>
               </label>
               <input id="u763_input" type="checkbox" value="checkbox"/>
@@ -1203,388 +1203,484 @@
               </label>
               <input id="u790_input" type="checkbox" value="checkbox"/>
             </div>
+
+            <!-- 短期軍人 (Dynamic Panel) -->
+            <div id="u791" class="ax_default ax_default_hidden" data-label="短期軍人" style="display:none; visibility: hidden">
+              <div id="u791_state0" class="panel_state" data-label="State1" style="">
+                <div id="u791_state0_content" class="panel_state_content">
+
+                  <!-- Unnamed (Table) -->
+                  <div id="u792" class="ax_default">
+
+                    <!-- Unnamed (Table Cell) -->
+                    <div id="u793" class="ax_default table_cell">
+                      <img id="u793_img" class="img " src="images/基本資料編輯/u719.png"/>
+                      <div id="u793_text" class="text ">
+                        <p><span style="color:#FF0000;">*</span><span style="color:#73817A;">具備申請資格條件</span></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (Table Cell) -->
+                    <div id="u794" class="ax_default table_cell">
+                      <img id="u794_img" class="img " src="images/基本資料編輯/u720.png"/>
+                    </div>
+
+                    <!-- Unnamed (Table Cell) -->
+                    <div id="u795" class="ax_default table_cell">
+                      <img id="u795_img" class="img " src="images/基本資料編輯/u747.png"/>
+                      <div id="u795_text" class="text ">
+                        <p><span style="color:#FF0000;">*</span><span style="color:#73817A;">栽培作物內容</span></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (Table Cell) -->
+                    <div id="u796" class="ax_default table_cell">
+                      <img id="u796_img" class="img " src="images/基本資料編輯/u748.png"/>
+                    </div>
+
+                    <!-- Unnamed (Table Cell) -->
+                    <div id="u797" class="ax_default table_cell">
+                      <img id="u797_img" class="img " src="images/基本資料編輯/u751.png"/>
+                      <div id="u797_text" class="text ">
+                        <p><span>備註</span></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (Table Cell) -->
+                    <div id="u798" class="ax_default table_cell">
+                      <img id="u798_img" class="img " src="images/基本資料編輯/u752.png"/>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Droplist) -->
+                  <div id="u799" class="ax_default droplist">
+                    <select id="u799_input">
+                      <option value="請選擇">請選擇</option>
+                      <option value="水稻">水稻</option>
+                      <option value="茶">茶</option>
+                      <option value="雜糧">雜糧</option>
+                      <option value="蔬菜">蔬菜</option>
+                      <option value="花卉">花卉</option>
+                      <option value="果樹">果樹</option>
+                      <option value="香草">香草</option>
+                      <option value="栽培設施">栽培設施</option>
+                      <option value="有機作物">有機作物</option>
+                      <option value="其他">其他</option>
+                    </select>
+                  </div>
+
+                  <!-- Unnamed (Rectangle) -->
+                  <div id="u800" class="ax_default button">
+                    <div id="u800_div" class=""></div>
+                    <div id="u800_text" class="text ">
+                      <p><span>新增</span></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Droplist) -->
+                  <div id="u801" class="ax_default droplist">
+                    <select id="u801_input">
+                      <option value="請選擇">請選擇</option>
+                      <option value="全年銷售金額達新台幣25萬以上">全年銷售金額達新台幣25萬以上</option>
+                      <option value="全年投入農業生產資材達新台幣15萬以上">全年投入農業生產資材達新台幣15萬以上</option>
+                      <option value="農地經營規模符合中央農業主管機關所定「實耕者經營面積認定基準」">農地經營規模符合中央農業主管機關所定「實耕者經營面積認定基準」</option>
+                    </select>
+                  </div>
+
+                  <!-- *居留證明文件統一字號 (Text Field) -->
+                  <div id="u802" class="ax_default text_field" data-label="*居留證明文件統一字號">
+                    <input id="u802_input" type="text" value=""/>
+                  </div>
+
+                  <!-- Unnamed (Image) -->
+                  <div id="u803" class="ax_default image">
+                    <img id="u803_img" class="img " src="images/基本資料編輯/u753.png"/>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div id="u717_state1" class="panel_state" data-label="居留證明文件" style="visibility: hidden;">
           <div id="u717_state1_content" class="panel_state_content">
 
             <!-- Unnamed (Table) -->
-            <div id="u791" class="ax_default">
+            <div id="u804" class="ax_default">
 
               <!-- Unnamed (Table Cell) -->
-              <div id="u792" class="ax_default table_cell">
-                <img id="u792_img" class="img " src="images/基本資料編輯/u719.png"/>
-                <div id="u792_text" class="text ">
+              <div id="u805" class="ax_default table_cell">
+                <img id="u805_img" class="img " src="images/基本資料編輯/u719.png"/>
+                <div id="u805_text" class="text ">
                   <p><span style="color:#FF0000;">*</span><span style="color:#73817A;">檢具身分文件</span></p>
                 </div>
               </div>
 
               <!-- Unnamed (Table Cell) -->
-              <div id="u793" class="ax_default table_cell">
-                <img id="u793_img" class="img " src="images/基本資料編輯/u720.png"/>
+              <div id="u806" class="ax_default table_cell">
+                <img id="u806_img" class="img " src="images/基本資料編輯/u720.png"/>
               </div>
 
               <!-- Unnamed (Table Cell) -->
-              <div id="u794" class="ax_default table_cell">
-                <img id="u794_img" class="img " src="images/基本資料編輯/u719.png"/>
-                <div id="u794_text" class="text ">
+              <div id="u807" class="ax_default table_cell">
+                <img id="u807_img" class="img " src="images/基本資料編輯/u719.png"/>
+                <div id="u807_text" class="text ">
                   <p><span>申請日期</span></p>
                 </div>
               </div>
 
               <!-- Unnamed (Table Cell) -->
-              <div id="u795" class="ax_default table_cell">
-                <img id="u795_img" class="img " src="images/基本資料編輯/u720.png"/>
-                <div id="u795_text" class="text ">
+              <div id="u808" class="ax_default table_cell">
+                <img id="u808_img" class="img " src="images/基本資料編輯/u720.png"/>
+                <div id="u808_text" class="text ">
                   <p><span>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; ※保戶持相關文件前來進行申請的日期</span></p>
                 </div>
               </div>
 
               <!-- Unnamed (Table Cell) -->
-              <div id="u796" class="ax_default table_cell">
-                <img id="u796_img" class="img " src="images/基本資料編輯/u719.png"/>
-                <div id="u796_text" class="text ">
+              <div id="u809" class="ax_default table_cell">
+                <img id="u809_img" class="img " src="images/基本資料編輯/u719.png"/>
+                <div id="u809_text" class="text ">
                   <p><span style="color:#FF0000;">*</span><span style="color:#73817A;">保戶姓名</span></p>
                 </div>
               </div>
 
               <!-- Unnamed (Table Cell) -->
-              <div id="u797" class="ax_default table_cell">
-                <img id="u797_img" class="img " src="images/基本資料編輯/u720.png"/>
+              <div id="u810" class="ax_default table_cell">
+                <img id="u810_img" class="img " src="images/基本資料編輯/u720.png"/>
               </div>
 
               <!-- Unnamed (Table Cell) -->
-              <div id="u798" class="ax_default table_cell">
-                <img id="u798_img" class="img " src="images/基本資料編輯/u719.png"/>
-                <div id="u798_text" class="text ">
+              <div id="u811" class="ax_default table_cell">
+                <img id="u811_img" class="img " src="images/基本資料編輯/u719.png"/>
+                <div id="u811_text" class="text ">
                   <p><span style="color:#FF0000;">*</span><span style="color:#73817A;">居留證明文件統一字號</span></p>
                 </div>
               </div>
 
               <!-- Unnamed (Table Cell) -->
-              <div id="u799" class="ax_default table_cell">
-                <img id="u799_img" class="img " src="images/基本資料編輯/u720.png"/>
+              <div id="u812" class="ax_default table_cell">
+                <img id="u812_img" class="img " src="images/基本資料編輯/u720.png"/>
               </div>
 
               <!-- Unnamed (Table Cell) -->
-              <div id="u800" class="ax_default table_cell">
-                <img id="u800_img" class="img " src="images/基本資料編輯/u719.png"/>
-                <div id="u800_text" class="text ">
+              <div id="u813" class="ax_default table_cell">
+                <img id="u813_img" class="img " src="images/基本資料編輯/u719.png"/>
+                <div id="u813_text" class="text ">
                   <p><span style="color:#FF0000;">*</span><span style="color:#73817A;">國籍(原居留地)</span></p>
                 </div>
               </div>
 
               <!-- Unnamed (Table Cell) -->
-              <div id="u801" class="ax_default table_cell">
-                <img id="u801_img" class="img " src="images/基本資料編輯/u720.png"/>
+              <div id="u814" class="ax_default table_cell">
+                <img id="u814_img" class="img " src="images/基本資料編輯/u720.png"/>
               </div>
 
               <!-- Unnamed (Table Cell) -->
-              <div id="u802" class="ax_default table_cell">
-                <img id="u802_img" class="img " src="images/基本資料編輯/u719.png"/>
-                <div id="u802_text" class="text ">
+              <div id="u815" class="ax_default table_cell">
+                <img id="u815_img" class="img " src="images/基本資料編輯/u719.png"/>
+                <div id="u815_text" class="text ">
                   <p><span style="color:#FF0000;">*</span><span style="color:#73817A;">出生日期</span></p>
                 </div>
               </div>
 
               <!-- Unnamed (Table Cell) -->
-              <div id="u803" class="ax_default table_cell">
-                <img id="u803_img" class="img " src="images/基本資料編輯/u720.png"/>
+              <div id="u816" class="ax_default table_cell">
+                <img id="u816_img" class="img " src="images/基本資料編輯/u720.png"/>
               </div>
 
               <!-- Unnamed (Table Cell) -->
-              <div id="u804" class="ax_default table_cell">
-                <img id="u804_img" class="img " src="images/基本資料編輯/u719.png"/>
-                <div id="u804_text" class="text ">
+              <div id="u817" class="ax_default table_cell">
+                <img id="u817_img" class="img " src="images/基本資料編輯/u719.png"/>
+                <div id="u817_text" class="text ">
                   <p><span style="color:#FF0000;">*</span><span style="color:#73817A;">居留期限</span></p>
                 </div>
               </div>
 
               <!-- Unnamed (Table Cell) -->
-              <div id="u805" class="ax_default table_cell">
-                <img id="u805_img" class="img " src="images/基本資料編輯/u720.png"/>
+              <div id="u818" class="ax_default table_cell">
+                <img id="u818_img" class="img " src="images/基本資料編輯/u720.png"/>
               </div>
 
               <!-- Unnamed (Table Cell) -->
-              <div id="u806" class="ax_default table_cell">
-                <img id="u806_img" class="img " src="images/基本資料編輯/u719.png"/>
-                <div id="u806_text" class="text ">
+              <div id="u819" class="ax_default table_cell">
+                <img id="u819_img" class="img " src="images/基本資料編輯/u719.png"/>
+                <div id="u819_text" class="text ">
                   <p><span style="color:#FF0000;">*</span><span style="color:#73817A;">資格別</span></p>
                 </div>
               </div>
 
               <!-- Unnamed (Table Cell) -->
-              <div id="u807" class="ax_default table_cell">
-                <img id="u807_img" class="img " src="images/基本資料編輯/u720.png"/>
+              <div id="u820" class="ax_default table_cell">
+                <img id="u820_img" class="img " src="images/基本資料編輯/u720.png"/>
               </div>
 
               <!-- Unnamed (Table Cell) -->
-              <div id="u808" class="ax_default table_cell">
-                <img id="u808_img" class="img " src="images/基本資料編輯/u747.png"/>
-                <div id="u808_text" class="text ">
+              <div id="u821" class="ax_default table_cell">
+                <img id="u821_img" class="img " src="images/基本資料編輯/u747.png"/>
+                <div id="u821_text" class="text ">
                   <p><span style="color:#FF0000;">*</span><span style="color:#73817A;">居留地址(在臺地址)</span></p>
                 </div>
               </div>
 
               <!-- Unnamed (Table Cell) -->
-              <div id="u809" class="ax_default table_cell">
-                <img id="u809_img" class="img " src="images/基本資料編輯/u748.png"/>
+              <div id="u822" class="ax_default table_cell">
+                <img id="u822_img" class="img " src="images/基本資料編輯/u748.png"/>
               </div>
 
               <!-- Unnamed (Table Cell) -->
-              <div id="u810" class="ax_default table_cell">
-                <img id="u810_img" class="img " src="images/基本資料編輯/u747.png"/>
-                <div id="u810_text" class="text ">
+              <div id="u823" class="ax_default table_cell">
+                <img id="u823_img" class="img " src="images/基本資料編輯/u747.png"/>
+                <div id="u823_text" class="text ">
                   <p><span style="color:#FF0000;">*</span><span style="color:#73817A;">通訊地址</span></p>
                 </div>
               </div>
 
               <!-- Unnamed (Table Cell) -->
-              <div id="u811" class="ax_default table_cell">
-                <img id="u811_img" class="img " src="images/基本資料編輯/u748.png"/>
+              <div id="u824" class="ax_default table_cell">
+                <img id="u824_img" class="img " src="images/基本資料編輯/u748.png"/>
               </div>
 
               <!-- Unnamed (Table Cell) -->
-              <div id="u812" class="ax_default table_cell">
-                <img id="u812_img" class="img " src="images/基本資料編輯/u719.png"/>
-                <div id="u812_text" class="text ">
+              <div id="u825" class="ax_default table_cell">
+                <img id="u825_img" class="img " src="images/基本資料編輯/u719.png"/>
+                <div id="u825_text" class="text ">
                   <p><span style="color:#FF0000;">*</span><span style="color:#73817A;">連絡電話</span></p>
                 </div>
               </div>
 
               <!-- Unnamed (Table Cell) -->
-              <div id="u813" class="ax_default table_cell">
-                <img id="u813_img" class="img " src="images/基本資料編輯/u720.png"/>
+              <div id="u826" class="ax_default table_cell">
+                <img id="u826_img" class="img " src="images/基本資料編輯/u720.png"/>
               </div>
 
               <!-- Unnamed (Table Cell) -->
-              <div id="u814" class="ax_default table_cell">
-                <img id="u814_img" class="img " src="images/基本資料編輯/u719.png"/>
-                <div id="u814_text" class="text ">
+              <div id="u827" class="ax_default table_cell">
+                <img id="u827_img" class="img " src="images/基本資料編輯/u719.png"/>
+                <div id="u827_text" class="text ">
                   <p><span style="color:#FF0000;">*</span><span style="color:#73817A;">行動電話</span></p>
                 </div>
               </div>
 
               <!-- Unnamed (Table Cell) -->
-              <div id="u815" class="ax_default table_cell">
-                <img id="u815_img" class="img " src="images/基本資料編輯/u720.png"/>
+              <div id="u828" class="ax_default table_cell">
+                <img id="u828_img" class="img " src="images/基本資料編輯/u720.png"/>
               </div>
 
               <!-- Unnamed (Table Cell) -->
-              <div id="u816" class="ax_default table_cell">
-                <img id="u816_img" class="img " src="images/基本資料編輯/u719.png"/>
-                <div id="u816_text" class="text ">
+              <div id="u829" class="ax_default table_cell">
+                <img id="u829_img" class="img " src="images/基本資料編輯/u719.png"/>
+                <div id="u829_text" class="text ">
                   <p><span style="color:#FF0000;">*</span><span style="color:#73817A;">配偶姓名</span></p>
                 </div>
               </div>
 
               <!-- Unnamed (Table Cell) -->
-              <div id="u817" class="ax_default table_cell">
-                <img id="u817_img" class="img " src="images/基本資料編輯/u720.png"/>
+              <div id="u830" class="ax_default table_cell">
+                <img id="u830_img" class="img " src="images/基本資料編輯/u720.png"/>
               </div>
 
               <!-- Unnamed (Table Cell) -->
-              <div id="u818" class="ax_default table_cell">
-                <img id="u818_img" class="img " src="images/基本資料編輯/u719.png"/>
-                <div id="u818_text" class="text ">
+              <div id="u831" class="ax_default table_cell">
+                <img id="u831_img" class="img " src="images/基本資料編輯/u719.png"/>
+                <div id="u831_text" class="text ">
                   <p><span style="color:#FF0000;">*</span><span style="color:#73817A;">配偶身分證字號</span></p>
                 </div>
               </div>
 
               <!-- Unnamed (Table Cell) -->
-              <div id="u819" class="ax_default table_cell">
-                <img id="u819_img" class="img " src="images/基本資料編輯/u720.png"/>
+              <div id="u832" class="ax_default table_cell">
+                <img id="u832_img" class="img " src="images/基本資料編輯/u720.png"/>
               </div>
 
               <!-- Unnamed (Table Cell) -->
-              <div id="u820" class="ax_default table_cell">
-                <img id="u820_img" class="img " src="images/基本資料編輯/u719.png"/>
-                <div id="u820_text" class="text ">
+              <div id="u833" class="ax_default table_cell">
+                <img id="u833_img" class="img " src="images/基本資料編輯/u719.png"/>
+                <div id="u833_text" class="text ">
                   <p><span style="color:#FF0000;">*</span><span style="color:#73817A;">戶籍遷入農會組織區域日期</span></p>
                 </div>
               </div>
 
               <!-- Unnamed (Table Cell) -->
-              <div id="u821" class="ax_default table_cell">
-                <img id="u821_img" class="img " src="images/基本資料編輯/u720.png"/>
+              <div id="u834" class="ax_default table_cell">
+                <img id="u834_img" class="img " src="images/基本資料編輯/u720.png"/>
               </div>
 
               <!-- Unnamed (Table Cell) -->
-              <div id="u822" class="ax_default table_cell">
-                <img id="u822_img" class="img " src="images/基本資料編輯/u747.png"/>
-                <div id="u822_text" class="text ">
+              <div id="u835" class="ax_default table_cell">
+                <img id="u835_img" class="img " src="images/基本資料編輯/u747.png"/>
+                <div id="u835_text" class="text ">
                   <p><span style="color:#FF0000;">*</span><span style="color:#73817A;">配偶戶籍地址</span></p>
                 </div>
               </div>
 
               <!-- Unnamed (Table Cell) -->
-              <div id="u823" class="ax_default table_cell">
-                <img id="u823_img" class="img " src="images/基本資料編輯/u748.png"/>
+              <div id="u836" class="ax_default table_cell">
+                <img id="u836_img" class="img " src="images/基本資料編輯/u748.png"/>
               </div>
 
               <!-- Unnamed (Table Cell) -->
-              <div id="u824" class="ax_default table_cell">
-                <img id="u824_img" class="img " src="images/基本資料編輯/u747.png"/>
-                <div id="u824_text" class="text ">
+              <div id="u837" class="ax_default table_cell">
+                <img id="u837_img" class="img " src="images/基本資料編輯/u747.png"/>
+                <div id="u837_text" class="text ">
                   <p><span style="color:#FF0000;">*</span><span style="color:#73817A;">配偶通訊地址</span></p>
                 </div>
               </div>
 
               <!-- Unnamed (Table Cell) -->
-              <div id="u825" class="ax_default table_cell">
-                <img id="u825_img" class="img " src="images/基本資料編輯/u748.png"/>
+              <div id="u838" class="ax_default table_cell">
+                <img id="u838_img" class="img " src="images/基本資料編輯/u748.png"/>
               </div>
 
               <!-- Unnamed (Table Cell) -->
-              <div id="u826" class="ax_default table_cell">
-                <img id="u826_img" class="img " src="images/基本資料編輯/u719.png"/>
-                <div id="u826_text" class="text ">
+              <div id="u839" class="ax_default table_cell">
+                <img id="u839_img" class="img " src="images/基本資料編輯/u719.png"/>
+                <div id="u839_text" class="text ">
                   <p><span>配偶戶號</span></p>
                 </div>
               </div>
 
               <!-- Unnamed (Table Cell) -->
-              <div id="u827" class="ax_default table_cell">
-                <img id="u827_img" class="img " src="images/基本資料編輯/u720.png"/>
+              <div id="u840" class="ax_default table_cell">
+                <img id="u840_img" class="img " src="images/基本資料編輯/u720.png"/>
               </div>
 
               <!-- Unnamed (Table Cell) -->
-              <div id="u828" class="ax_default table_cell">
-                <img id="u828_img" class="img " src="images/基本資料編輯/u719.png"/>
-                <div id="u828_text" class="text ">
+              <div id="u841" class="ax_default table_cell">
+                <img id="u841_img" class="img " src="images/基本資料編輯/u719.png"/>
+                <div id="u841_text" class="text ">
                   <p><span>配偶與戶長關係</span></p>
                 </div>
               </div>
 
               <!-- Unnamed (Table Cell) -->
-              <div id="u829" class="ax_default table_cell">
-                <img id="u829_img" class="img " src="images/基本資料編輯/u720.png"/>
-                <div id="u829_text" class="text ">
+              <div id="u842" class="ax_default table_cell">
+                <img id="u842_img" class="img " src="images/基本資料編輯/u720.png"/>
+                <div id="u842_text" class="text ">
                   <p><span>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ※請以戶長角度填寫，例如戶長是保戶的爸爸，關係則為子女</span></p>
                 </div>
               </div>
 
               <!-- Unnamed (Table Cell) -->
-              <div id="u830" class="ax_default table_cell">
-                <img id="u830_img" class="img " src="images/基本資料編輯/u719.png"/>
-                <div id="u830_text" class="text ">
+              <div id="u843" class="ax_default table_cell">
+                <img id="u843_img" class="img " src="images/基本資料編輯/u719.png"/>
+                <div id="u843_text" class="text ">
                   <p><span>戶長身分證字號</span></p>
                 </div>
               </div>
 
               <!-- Unnamed (Table Cell) -->
-              <div id="u831" class="ax_default table_cell">
-                <img id="u831_img" class="img " src="images/基本資料編輯/u720.png"/>
+              <div id="u844" class="ax_default table_cell">
+                <img id="u844_img" class="img " src="images/基本資料編輯/u720.png"/>
               </div>
 
               <!-- Unnamed (Table Cell) -->
-              <div id="u832" class="ax_default table_cell">
-                <img id="u832_img" class="img " src="images/基本資料編輯/u719.png"/>
-                <div id="u832_text" class="text ">
+              <div id="u845" class="ax_default table_cell">
+                <img id="u845_img" class="img " src="images/基本資料編輯/u719.png"/>
+                <div id="u845_text" class="text ">
                   <p><span>扣款帳戶</span></p>
                 </div>
               </div>
 
               <!-- Unnamed (Table Cell) -->
-              <div id="u833" class="ax_default table_cell">
-                <img id="u833_img" class="img " src="images/基本資料編輯/u720.png"/>
+              <div id="u846" class="ax_default table_cell">
+                <img id="u846_img" class="img " src="images/基本資料編輯/u720.png"/>
               </div>
 
               <!-- Unnamed (Table Cell) -->
-              <div id="u834" class="ax_default table_cell">
-                <img id="u834_img" class="img " src="images/基本資料編輯/u719.png"/>
-                <div id="u834_text" class="text ">
+              <div id="u847" class="ax_default table_cell">
+                <img id="u847_img" class="img " src="images/基本資料編輯/u719.png"/>
+                <div id="u847_text" class="text ">
                   <p><span>帳戶姓名</span></p>
                 </div>
               </div>
 
               <!-- Unnamed (Table Cell) -->
-              <div id="u835" class="ax_default table_cell">
-                <img id="u835_img" class="img " src="images/基本資料編輯/u720.png"/>
+              <div id="u848" class="ax_default table_cell">
+                <img id="u848_img" class="img " src="images/基本資料編輯/u720.png"/>
               </div>
 
               <!-- Unnamed (Table Cell) -->
-              <div id="u836" class="ax_default table_cell">
-                <img id="u836_img" class="img " src="images/基本資料編輯/u719.png"/>
-                <div id="u836_text" class="text ">
+              <div id="u849" class="ax_default table_cell">
+                <img id="u849_img" class="img " src="images/基本資料編輯/u719.png"/>
+                <div id="u849_text" class="text ">
                   <p><span>扣款人身分證</span></p>
                 </div>
               </div>
 
               <!-- Unnamed (Table Cell) -->
-              <div id="u837" class="ax_default table_cell">
-                <img id="u837_img" class="img " src="images/基本資料編輯/u720.png"/>
+              <div id="u850" class="ax_default table_cell">
+                <img id="u850_img" class="img " src="images/基本資料編輯/u720.png"/>
               </div>
 
               <!-- Unnamed (Table Cell) -->
-              <div id="u838" class="ax_default table_cell">
-                <img id="u838_img" class="img " src="images/基本資料編輯/u751.png"/>
-                <div id="u838_text" class="text ">
+              <div id="u851" class="ax_default table_cell">
+                <img id="u851_img" class="img " src="images/基本資料編輯/u751.png"/>
+                <div id="u851_text" class="text ">
                   <p><span>備註</span></p>
                 </div>
               </div>
 
               <!-- Unnamed (Table Cell) -->
-              <div id="u839" class="ax_default table_cell">
-                <img id="u839_img" class="img " src="images/基本資料編輯/u752.png"/>
+              <div id="u852" class="ax_default table_cell">
+                <img id="u852_img" class="img " src="images/基本資料編輯/u752.png"/>
               </div>
             </div>
 
             <!-- Unnamed (Droplist) -->
-            <div id="u840" class="ax_default droplist">
-              <select id="u840_input">
+            <div id="u853" class="ax_default droplist">
+              <select id="u853_input">
                 <option value="國民身分證">國民身分證</option>
                 <option value="居留證明文件">居留證明文件</option>
               </select>
             </div>
 
             <!-- Unnamed (Group) -->
-            <div id="u841" class="ax_default" data-left="725" data-top="1314" data-width="348" data-height="47">
+            <div id="u854" class="ax_default" data-left="725" data-top="1314" data-width="348" data-height="47">
 
               <!-- Unnamed (Image) -->
-              <div id="u842" class="ax_default image">
-                <img id="u842_img" class="img " src="images/基本資料編輯/u755.png"/>
+              <div id="u855" class="ax_default image">
+                <img id="u855_img" class="img " src="images/基本資料編輯/u755.png"/>
               </div>
 
               <!-- Unnamed (Image) -->
-              <div id="u843" class="ax_default image">
-                <img id="u843_img" class="img " src="images/基本資料編輯/u843.png"/>
+              <div id="u856" class="ax_default image">
+                <img id="u856_img" class="img " src="images/基本資料編輯/u856.png"/>
               </div>
             </div>
 
             <!-- *居留證明文件統一字號 (Text Field) -->
-            <div id="u844" class="ax_default text_field" data-label="*居留證明文件統一字號">
-              <input id="u844_input" type="text" value=""/>
+            <div id="u857" class="ax_default text_field" data-label="*居留證明文件統一字號">
+              <input id="u857_input" type="text" value=""/>
             </div>
 
             <!-- Unnamed (Text Field) -->
-            <div id="u845" class="ax_default text_field">
-              <input id="u845_input" type="text" value=""/>
+            <div id="u858" class="ax_default text_field">
+              <input id="u858_input" type="text" value=""/>
             </div>
 
             <!-- Unnamed (Text Field) -->
-            <div id="u846" class="ax_default text_field">
-              <input id="u846_input" type="text" value=""/>
+            <div id="u859" class="ax_default text_field">
+              <input id="u859_input" type="text" value=""/>
             </div>
 
             <!-- *居留證明文件統一字號 (Text Field) -->
-            <div id="u847" class="ax_default text_field" data-label="*居留證明文件統一字號">
-              <input id="u847_input" type="text" value=""/>
+            <div id="u860" class="ax_default text_field" data-label="*居留證明文件統一字號">
+              <input id="u860_input" type="text" value=""/>
             </div>
 
             <!-- *居留證明文件統一字號 (Text Field) -->
-            <div id="u848" class="ax_default text_field" data-label="*居留證明文件統一字號">
-              <input id="u848_input" type="text" value=""/>
+            <div id="u861" class="ax_default text_field" data-label="*居留證明文件統一字號">
+              <input id="u861_input" type="text" value=""/>
             </div>
 
             <!-- *居留證明文件統一字號 (Text Field) -->
-            <div id="u849" class="ax_default text_field" data-label="*居留證明文件統一字號">
-              <input id="u849_input" type="text" value=""/>
+            <div id="u862" class="ax_default text_field" data-label="*居留證明文件統一字號">
+              <input id="u862_input" type="text" value=""/>
             </div>
 
             <!-- Unnamed (Droplist) -->
-            <div id="u850" class="ax_default droplist">
-              <select id="u850_input">
+            <div id="u863" class="ax_default droplist">
+              <select id="u863_input">
                 <option value="請選擇">請選擇</option>
                 <option value="自耕農">自耕農</option>
                 <option value="佃農">佃農</option>
@@ -1594,153 +1690,79 @@
             </div>
 
             <!-- Unnamed (Group) -->
-            <div id="u851" class="ax_default" data-left="325" data-top="365" data-width="1035" data-height="77">
+            <div id="u864" class="ax_default" data-left="325" data-top="365" data-width="1035" data-height="77">
 
               <!-- Unnamed (Group) -->
-              <div id="u852" class="ax_default" data-left="325" data-top="374" data-width="100" data-height="60">
+              <div id="u865" class="ax_default" data-left="325" data-top="374" data-width="100" data-height="60">
 
                 <!-- Unnamed (Radio Button) -->
-                <div id="u853" class="ax_default radio_button">
-                  <label for="u853_input" style="position: absolute; left: 0px;">
-                    <div id="u853_text" class="text " style="display:none; visibility: hidden">
+                <div id="u866" class="ax_default radio_button">
+                  <label for="u866_input" style="position: absolute; left: 0px;">
+                    <div id="u866_text" class="text " style="display:none; visibility: hidden">
                       <p></p>
                     </div>
                   </label>
-                  <input id="u853_input" type="radio" value="radio" name="u853"/>
+                  <input id="u866_input" type="radio" value="radio" name="u866"/>
                 </div>
 
                 <!-- Unnamed (Radio Button) -->
-                <div id="u854" class="ax_default radio_button">
-                  <label for="u854_input" style="position: absolute; left: 0px;">
-                    <div id="u854_text" class="text " style="display:none; visibility: hidden">
+                <div id="u867" class="ax_default radio_button">
+                  <label for="u867_input" style="position: absolute; left: 0px;">
+                    <div id="u867_text" class="text " style="display:none; visibility: hidden">
                       <p></p>
                     </div>
                   </label>
-                  <input id="u854_input" type="radio" value="radio" name="u854"/>
+                  <input id="u867_input" type="radio" value="radio" name="u867"/>
                 </div>
               </div>
 
               <!-- Unnamed (Droplist) -->
-              <div id="u855" class="ax_default droplist">
-                <select id="u855_input">
+              <div id="u868" class="ax_default droplist">
+                <select id="u868_input">
                   <option value="未填寫">未填寫</option>
                 </select>
               </div>
 
               <!-- Unnamed (Droplist) -->
-              <div id="u856" class="ax_default droplist">
-                <select id="u856_input">
+              <div id="u869" class="ax_default droplist">
+                <select id="u869_input">
                   <option value="未填寫">未填寫</option>
                 </select>
               </div>
 
               <!-- Unnamed (Droplist) -->
-              <div id="u857" class="ax_default droplist">
-                <select id="u857_input">
+              <div id="u870" class="ax_default droplist">
+                <select id="u870_input">
                   <option value="未填寫">未填寫</option>
                 </select>
               </div>
 
               <!-- Unnamed (Text Field) -->
-              <div id="u858" class="ax_default text_field">
-                <input id="u858_input" type="text" value=""/>
+              <div id="u871" class="ax_default text_field">
+                <input id="u871_input" type="text" value=""/>
               </div>
 
               <!-- Unnamed (Text Field) -->
-              <div id="u859" class="ax_default text_field">
-                <input id="u859_input" type="text" value=""/>
+              <div id="u872" class="ax_default text_field">
+                <input id="u872_input" type="text" value=""/>
               </div>
             </div>
 
             <!-- Unnamed (Group) -->
-            <div id="u860" class="ax_default" data-left="325" data-top="455" data-width="1035" data-height="77">
+            <div id="u873" class="ax_default" data-left="325" data-top="455" data-width="1035" data-height="77">
 
               <!-- Unnamed (Group) -->
-              <div id="u861" class="ax_default" data-left="325" data-top="464" data-width="100" data-height="60">
+              <div id="u874" class="ax_default" data-left="325" data-top="464" data-width="100" data-height="60">
 
                 <!-- Unnamed (Radio Button) -->
-                <div id="u862" class="ax_default radio_button">
-                  <label for="u862_input" style="position: absolute; left: 0px;">
-                    <div id="u862_text" class="text " style="display:none; visibility: hidden">
+                <div id="u875" class="ax_default radio_button">
+                  <label for="u875_input" style="position: absolute; left: 0px;">
+                    <div id="u875_text" class="text " style="display:none; visibility: hidden">
                       <p></p>
                     </div>
                   </label>
-                  <input id="u862_input" type="radio" value="radio" name="u862"/>
+                  <input id="u875_input" type="radio" value="radio" name="u875"/>
                 </div>
-
-                <!-- Unnamed (Radio Button) -->
-                <div id="u863" class="ax_default radio_button">
-                  <label for="u863_input" style="position: absolute; left: 0px;">
-                    <div id="u863_text" class="text " style="display:none; visibility: hidden">
-                      <p></p>
-                    </div>
-                  </label>
-                  <input id="u863_input" type="radio" value="radio" name="u863"/>
-                </div>
-              </div>
-
-              <!-- Unnamed (Droplist) -->
-              <div id="u864" class="ax_default droplist">
-                <select id="u864_input">
-                  <option value="未填寫">未填寫</option>
-                </select>
-              </div>
-
-              <!-- Unnamed (Droplist) -->
-              <div id="u865" class="ax_default droplist">
-                <select id="u865_input">
-                  <option value="未填寫">未填寫</option>
-                </select>
-              </div>
-
-              <!-- Unnamed (Droplist) -->
-              <div id="u866" class="ax_default droplist">
-                <select id="u866_input">
-                  <option value="未填寫">未填寫</option>
-                </select>
-              </div>
-
-              <!-- Unnamed (Text Field) -->
-              <div id="u867" class="ax_default text_field">
-                <input id="u867_input" type="text" value=""/>
-              </div>
-
-              <!-- Unnamed (Text Field) -->
-              <div id="u868" class="ax_default text_field">
-                <input id="u868_input" type="text" value=""/>
-              </div>
-            </div>
-
-            <!-- *居留證明文件統一字號 (Text Field) -->
-            <div id="u869" class="ax_default text_field" data-label="*居留證明文件統一字號">
-              <input id="u869_input" type="text" value=""/>
-            </div>
-
-            <!-- *居留證明文件統一字號 (Text Field) -->
-            <div id="u870" class="ax_default text_field" data-label="*居留證明文件統一字號">
-              <input id="u870_input" type="text" value=""/>
-            </div>
-
-            <!-- *居留證明文件統一字號 (Text Field) -->
-            <div id="u871" class="ax_default text_field" data-label="*居留證明文件統一字號">
-              <input id="u871_input" type="text" value=""/>
-            </div>
-
-            <!-- *居留證明文件統一字號 (Text Field) -->
-            <div id="u872" class="ax_default text_field" data-label="*居留證明文件統一字號">
-              <input id="u872_input" type="text" value=""/>
-            </div>
-
-            <!-- *居留證明文件統一字號 (Text Field) -->
-            <div id="u873" class="ax_default text_field" data-label="*居留證明文件統一字號">
-              <input id="u873_input" type="text" value=""/>
-            </div>
-
-            <!-- Unnamed (Group) -->
-            <div id="u874" class="ax_default" data-left="325" data-top="770" data-width="1035" data-height="77">
-
-              <!-- Unnamed (Group) -->
-              <div id="u875" class="ax_default" data-left="325" data-top="779" data-width="100" data-height="60">
 
                 <!-- Unnamed (Radio Button) -->
                 <div id="u876" class="ax_default radio_button">
@@ -1751,16 +1773,13 @@
                   </label>
                   <input id="u876_input" type="radio" value="radio" name="u876"/>
                 </div>
+              </div>
 
-                <!-- Unnamed (Radio Button) -->
-                <div id="u877" class="ax_default radio_button">
-                  <label for="u877_input" style="position: absolute; left: 0px;">
-                    <div id="u877_text" class="text " style="display:none; visibility: hidden">
-                      <p></p>
-                    </div>
-                  </label>
-                  <input id="u877_input" type="radio" value="radio" name="u877"/>
-                </div>
+              <!-- Unnamed (Droplist) -->
+              <div id="u877" class="ax_default droplist">
+                <select id="u877_input">
+                  <option value="未填寫">未填寫</option>
+                </select>
               </div>
 
               <!-- Unnamed (Droplist) -->
@@ -1777,91 +1796,168 @@
                 </select>
               </div>
 
-              <!-- Unnamed (Droplist) -->
-              <div id="u880" class="ax_default droplist">
-                <select id="u880_input">
-                  <option value="未填寫">未填寫</option>
-                </select>
+              <!-- Unnamed (Text Field) -->
+              <div id="u880" class="ax_default text_field">
+                <input id="u880_input" type="text" value=""/>
               </div>
 
               <!-- Unnamed (Text Field) -->
               <div id="u881" class="ax_default text_field">
                 <input id="u881_input" type="text" value=""/>
               </div>
+            </div>
+
+            <!-- *居留證明文件統一字號 (Text Field) -->
+            <div id="u882" class="ax_default text_field" data-label="*居留證明文件統一字號">
+              <input id="u882_input" type="text" value=""/>
+            </div>
+
+            <!-- *居留證明文件統一字號 (Text Field) -->
+            <div id="u883" class="ax_default text_field" data-label="*居留證明文件統一字號">
+              <input id="u883_input" type="text" value=""/>
+            </div>
+
+            <!-- *居留證明文件統一字號 (Text Field) -->
+            <div id="u884" class="ax_default text_field" data-label="*居留證明文件統一字號">
+              <input id="u884_input" type="text" value=""/>
+            </div>
+
+            <!-- *居留證明文件統一字號 (Text Field) -->
+            <div id="u885" class="ax_default text_field" data-label="*居留證明文件統一字號">
+              <input id="u885_input" type="text" value=""/>
+            </div>
+
+            <!-- *居留證明文件統一字號 (Text Field) -->
+            <div id="u886" class="ax_default text_field" data-label="*居留證明文件統一字號">
+              <input id="u886_input" type="text" value=""/>
+            </div>
+
+            <!-- Unnamed (Group) -->
+            <div id="u887" class="ax_default" data-left="325" data-top="770" data-width="1035" data-height="77">
+
+              <!-- Unnamed (Group) -->
+              <div id="u888" class="ax_default" data-left="325" data-top="779" data-width="100" data-height="60">
+
+                <!-- Unnamed (Radio Button) -->
+                <div id="u889" class="ax_default radio_button">
+                  <label for="u889_input" style="position: absolute; left: 0px;">
+                    <div id="u889_text" class="text " style="display:none; visibility: hidden">
+                      <p></p>
+                    </div>
+                  </label>
+                  <input id="u889_input" type="radio" value="radio" name="u889"/>
+                </div>
+
+                <!-- Unnamed (Radio Button) -->
+                <div id="u890" class="ax_default radio_button">
+                  <label for="u890_input" style="position: absolute; left: 0px;">
+                    <div id="u890_text" class="text " style="display:none; visibility: hidden">
+                      <p></p>
+                    </div>
+                  </label>
+                  <input id="u890_input" type="radio" value="radio" name="u890"/>
+                </div>
+              </div>
+
+              <!-- Unnamed (Droplist) -->
+              <div id="u891" class="ax_default droplist">
+                <select id="u891_input">
+                  <option value="未填寫">未填寫</option>
+                </select>
+              </div>
+
+              <!-- Unnamed (Droplist) -->
+              <div id="u892" class="ax_default droplist">
+                <select id="u892_input">
+                  <option value="未填寫">未填寫</option>
+                </select>
+              </div>
+
+              <!-- Unnamed (Droplist) -->
+              <div id="u893" class="ax_default droplist">
+                <select id="u893_input">
+                  <option value="未填寫">未填寫</option>
+                </select>
+              </div>
 
               <!-- Unnamed (Text Field) -->
-              <div id="u882" class="ax_default text_field">
-                <input id="u882_input" type="text" value=""/>
+              <div id="u894" class="ax_default text_field">
+                <input id="u894_input" type="text" value=""/>
+              </div>
+
+              <!-- Unnamed (Text Field) -->
+              <div id="u895" class="ax_default text_field">
+                <input id="u895_input" type="text" value=""/>
               </div>
             </div>
 
             <!-- Unnamed (Group) -->
-            <div id="u883" class="ax_default" data-left="325" data-top="860" data-width="1035" data-height="77">
+            <div id="u896" class="ax_default" data-left="325" data-top="860" data-width="1035" data-height="77">
 
               <!-- Unnamed (Group) -->
-              <div id="u884" class="ax_default" data-left="325" data-top="869" data-width="100" data-height="60">
+              <div id="u897" class="ax_default" data-left="325" data-top="869" data-width="100" data-height="60">
 
                 <!-- Unnamed (Radio Button) -->
-                <div id="u885" class="ax_default radio_button">
-                  <label for="u885_input" style="position: absolute; left: 0px;">
-                    <div id="u885_text" class="text " style="display:none; visibility: hidden">
+                <div id="u898" class="ax_default radio_button">
+                  <label for="u898_input" style="position: absolute; left: 0px;">
+                    <div id="u898_text" class="text " style="display:none; visibility: hidden">
                       <p></p>
                     </div>
                   </label>
-                  <input id="u885_input" type="radio" value="radio" name="u885"/>
+                  <input id="u898_input" type="radio" value="radio" name="u898"/>
                 </div>
 
                 <!-- Unnamed (Radio Button) -->
-                <div id="u886" class="ax_default radio_button">
-                  <label for="u886_input" style="position: absolute; left: 0px;">
-                    <div id="u886_text" class="text " style="display:none; visibility: hidden">
+                <div id="u899" class="ax_default radio_button">
+                  <label for="u899_input" style="position: absolute; left: 0px;">
+                    <div id="u899_text" class="text " style="display:none; visibility: hidden">
                       <p></p>
                     </div>
                   </label>
-                  <input id="u886_input" type="radio" value="radio" name="u886"/>
+                  <input id="u899_input" type="radio" value="radio" name="u899"/>
                 </div>
               </div>
 
               <!-- Unnamed (Droplist) -->
-              <div id="u887" class="ax_default droplist">
-                <select id="u887_input">
+              <div id="u900" class="ax_default droplist">
+                <select id="u900_input">
                   <option value="未填寫">未填寫</option>
                 </select>
               </div>
 
               <!-- Unnamed (Droplist) -->
-              <div id="u888" class="ax_default droplist">
-                <select id="u888_input">
+              <div id="u901" class="ax_default droplist">
+                <select id="u901_input">
                   <option value="未填寫">未填寫</option>
                 </select>
               </div>
 
               <!-- Unnamed (Droplist) -->
-              <div id="u889" class="ax_default droplist">
-                <select id="u889_input">
+              <div id="u902" class="ax_default droplist">
+                <select id="u902_input">
                   <option value="未填寫">未填寫</option>
                 </select>
               </div>
 
               <!-- Unnamed (Text Field) -->
-              <div id="u890" class="ax_default text_field">
-                <input id="u890_input" type="text" value=""/>
+              <div id="u903" class="ax_default text_field">
+                <input id="u903_input" type="text" value=""/>
               </div>
 
               <!-- Unnamed (Text Field) -->
-              <div id="u891" class="ax_default text_field">
-                <input id="u891_input" type="text" value=""/>
+              <div id="u904" class="ax_default text_field">
+                <input id="u904_input" type="text" value=""/>
               </div>
             </div>
 
             <!-- *居留證明文件統一字號 (Text Field) -->
-            <div id="u892" class="ax_default text_field" data-label="*居留證明文件統一字號">
-              <input id="u892_input" type="text" value=""/>
+            <div id="u905" class="ax_default text_field" data-label="*居留證明文件統一字號">
+              <input id="u905_input" type="text" value=""/>
             </div>
 
             <!-- Unnamed (Droplist) -->
-            <div id="u893" class="ax_default droplist">
-              <select id="u893_input">
+            <div id="u906" class="ax_default droplist">
+              <select id="u906_input">
                 <option value="請選擇">請選擇</option>
                 <option value="自耕農">自耕農</option>
                 <option value="佃農">佃農</option>
@@ -1871,100 +1967,616 @@
             </div>
 
             <!-- *居留證明文件統一字號 (Text Field) -->
-            <div id="u894" class="ax_default text_field" data-label="*居留證明文件統一字號">
-              <input id="u894_input" type="text" value=""/>
+            <div id="u907" class="ax_default text_field" data-label="*居留證明文件統一字號">
+              <input id="u907_input" type="text" value=""/>
             </div>
 
             <!-- *居留證明文件統一字號 (Text Field) -->
-            <div id="u895" class="ax_default text_field" data-label="*居留證明文件統一字號">
-              <input id="u895_input" type="text" value=""/>
+            <div id="u908" class="ax_default text_field" data-label="*居留證明文件統一字號">
+              <input id="u908_input" type="text" value=""/>
             </div>
 
             <!-- *居留證明文件統一字號 (Text Field) -->
-            <div id="u896" class="ax_default text_field" data-label="*居留證明文件統一字號">
-              <input id="u896_input" type="text" value=""/>
+            <div id="u909" class="ax_default text_field" data-label="*居留證明文件統一字號">
+              <input id="u909_input" type="text" value=""/>
             </div>
 
             <!-- *居留證明文件統一字號 (Text Field) -->
-            <div id="u897" class="ax_default text_field" data-label="*居留證明文件統一字號">
-              <input id="u897_input" type="text" value=""/>
+            <div id="u910" class="ax_default text_field" data-label="*居留證明文件統一字號">
+              <input id="u910_input" type="text" value=""/>
             </div>
 
             <!-- *居留證明文件統一字號 (Text Field) -->
-            <div id="u898" class="ax_default text_field" data-label="*居留證明文件統一字號">
-              <input id="u898_input" type="text" value=""/>
+            <div id="u911" class="ax_default text_field" data-label="*居留證明文件統一字號">
+              <input id="u911_input" type="text" value=""/>
             </div>
 
             <!-- Unnamed (Checkbox) -->
-            <div id="u899" class="ax_default checkbox">
-              <label for="u899_input" style="position: absolute; left: 0px;">
-                <div id="u899_text" class="text ">
+            <div id="u912" class="ax_default checkbox">
+              <label for="u912_input" style="position: absolute; left: 0px;">
+                <div id="u912_text" class="text ">
                   <p><span>同戶籍地址</span></p>
                 </div>
               </label>
-              <input id="u899_input" type="checkbox" value="checkbox"/>
+              <input id="u912_input" type="checkbox" value="checkbox"/>
             </div>
 
             <!-- Unnamed (Checkbox) -->
-            <div id="u900" class="ax_default checkbox">
-              <label for="u900_input" style="position: absolute; left: 0px;">
-                <div id="u900_text" class="text ">
+            <div id="u913" class="ax_default checkbox">
+              <label for="u913_input" style="position: absolute; left: 0px;">
+                <div id="u913_text" class="text ">
                   <p><span>同保戶居留地址(在臺地址)</span></p>
                 </div>
               </label>
-              <input id="u900_input" type="checkbox" value="checkbox"/>
+              <input id="u913_input" type="checkbox" value="checkbox"/>
             </div>
 
             <!-- Unnamed (Checkbox) -->
-            <div id="u901" class="ax_default checkbox">
-              <label for="u901_input" style="position: absolute; left: 0px;">
-                <div id="u901_text" class="text ">
+            <div id="u914" class="ax_default checkbox">
+              <label for="u914_input" style="position: absolute; left: 0px;">
+                <div id="u914_text" class="text ">
                   <p><span>同保戶居留地址(在臺地址)</span></p>
                 </div>
               </label>
-              <input id="u901_input" type="checkbox" value="checkbox"/>
+              <input id="u914_input" type="checkbox" value="checkbox"/>
             </div>
 
             <!-- Unnamed (Checkbox) -->
-            <div id="u902" class="ax_default checkbox">
-              <label for="u902_input" style="position: absolute; left: 0px;">
-                <div id="u902_text" class="text ">
+            <div id="u915" class="ax_default checkbox">
+              <label for="u915_input" style="position: absolute; left: 0px;">
+                <div id="u915_text" class="text ">
                   <p><span>新加保需二次現勘</span></p>
                 </div>
               </label>
-              <input id="u902_input" type="checkbox" value="checkbox"/>
+              <input id="u915_input" type="checkbox" value="checkbox"/>
             </div>
 
             <!-- Unnamed (Checkbox) -->
-            <div id="u903" class="ax_default checkbox">
-              <label for="u903_input" style="position: absolute; left: 0px;">
-                <div id="u903_text" class="text ">
+            <div id="u916" class="ax_default checkbox">
+              <label for="u916_input" style="position: absolute; left: 0px;">
+                <div id="u916_text" class="text ">
                   <p><span>同連絡電話</span></p>
                 </div>
               </label>
-              <input id="u903_input" type="checkbox" value="checkbox"/>
+              <input id="u916_input" type="checkbox" value="checkbox"/>
             </div>
 
             <!-- Unnamed (Droplist) -->
-            <div id="u904" class="ax_default droplist">
-              <select id="u904_input">
+            <div id="u917" class="ax_default droplist">
+              <select id="u917_input">
                 <option value="請選擇">請選擇</option>
                 <option selected value="非會員">非會員</option>
               </select>
             </div>
           </div>
         </div>
+        <div id="u717_state2" class="panel_state" data-label="蜂農" style="visibility: hidden;">
+          <div id="u717_state2_content" class="panel_state_content">
+
+            <!-- Unnamed (Table) -->
+            <div id="u918" class="ax_default">
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u919" class="ax_default table_cell">
+                <img id="u919_img" class="img " src="images/基本資料編輯/u719.png"/>
+                <div id="u919_text" class="text ">
+                  <p><span style="color:#FF0000;">*</span><span style="color:#73817A;">檢具身分文件</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u920" class="ax_default table_cell">
+                <img id="u920_img" class="img " src="images/基本資料編輯/u720.png"/>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u921" class="ax_default table_cell">
+                <img id="u921_img" class="img " src="images/基本資料編輯/u719.png"/>
+                <div id="u921_text" class="text ">
+                  <p><span style="color:#FF0000;">*</span><span style="color:#73817A;">申請日期</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u922" class="ax_default table_cell">
+                <img id="u922_img" class="img " src="images/基本資料編輯/u720.png"/>
+                <div id="u922_text" class="text ">
+                  <p><span>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; ※蜂農申報日期</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u923" class="ax_default table_cell">
+                <img id="u923_img" class="img " src="images/基本資料編輯/u719.png"/>
+                <div id="u923_text" class="text ">
+                  <p><span style="color:#FF0000;">*</span><span style="color:#73817A;">保戶姓名</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u924" class="ax_default table_cell">
+                <img id="u924_img" class="img " src="images/基本資料編輯/u720.png"/>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u925" class="ax_default table_cell">
+                <img id="u925_img" class="img " src="images/基本資料編輯/u719.png"/>
+                <div id="u925_text" class="text ">
+                  <p><span style="color:#FF0000;">*</span><span style="color:#73817A;">身分證字號</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u926" class="ax_default table_cell">
+                <img id="u926_img" class="img " src="images/基本資料編輯/u720.png"/>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u927" class="ax_default table_cell">
+                <img id="u927_img" class="img " src="images/基本資料編輯/u719.png"/>
+                <div id="u927_text" class="text ">
+                  <p><span style="color:#FF0000;">*</span><span style="color:#73817A;">出生日期</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u928" class="ax_default table_cell">
+                <img id="u928_img" class="img " src="images/基本資料編輯/u720.png"/>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u929" class="ax_default table_cell">
+                <img id="u929_img" class="img " src="images/基本資料編輯/u719.png"/>
+                <div id="u929_text" class="text ">
+                  <p><span style="color:#FF0000;">*</span><span style="color:#73817A;">資格別</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u930" class="ax_default table_cell">
+                <img id="u930_img" class="img " src="images/基本資料編輯/u720.png"/>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u931" class="ax_default table_cell">
+                <img id="u931_img" class="img " src="images/基本資料編輯/u719.png"/>
+                <div id="u931_text" class="text ">
+                  <p><span>扣款帳戶</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u932" class="ax_default table_cell">
+                <img id="u932_img" class="img " src="images/基本資料編輯/u720.png"/>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u933" class="ax_default table_cell">
+                <img id="u933_img" class="img " src="images/基本資料編輯/u719.png"/>
+                <div id="u933_text" class="text ">
+                  <p><span>帳戶姓名</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u934" class="ax_default table_cell">
+                <img id="u934_img" class="img " src="images/基本資料編輯/u720.png"/>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u935" class="ax_default table_cell">
+                <img id="u935_img" class="img " src="images/基本資料編輯/u719.png"/>
+                <div id="u935_text" class="text ">
+                  <p><span>扣款人身分證</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u936" class="ax_default table_cell">
+                <img id="u936_img" class="img " src="images/基本資料編輯/u720.png"/>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u937" class="ax_default table_cell">
+                <img id="u937_img" class="img " src="images/基本資料編輯/u719.png"/>
+                <div id="u937_text" class="text ">
+                  <p><span>電話</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u938" class="ax_default table_cell">
+                <img id="u938_img" class="img " src="images/基本資料編輯/u720.png"/>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u939" class="ax_default table_cell">
+                <img id="u939_img" class="img " src="images/基本資料編輯/u719.png"/>
+                <div id="u939_text" class="text ">
+                  <p><span>戶籍遷入農會組織區域日期</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u940" class="ax_default table_cell">
+                <img id="u940_img" class="img " src="images/基本資料編輯/u720.png"/>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u941" class="ax_default table_cell">
+                <img id="u941_img" class="img " src="images/基本資料編輯/u747.png"/>
+                <div id="u941_text" class="text ">
+                  <p><span style="color:#FF0000;">*</span><span style="color:#73817A;">戶籍地址</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u942" class="ax_default table_cell">
+                <img id="u942_img" class="img " src="images/基本資料編輯/u748.png"/>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u943" class="ax_default table_cell">
+                <img id="u943_img" class="img " src="images/基本資料編輯/u747.png"/>
+                <div id="u943_text" class="text ">
+                  <p><span>通訊地址</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u944" class="ax_default table_cell">
+                <img id="u944_img" class="img " src="images/基本資料編輯/u748.png"/>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u945" class="ax_default table_cell">
+                <img id="u945_img" class="img " src="images/基本資料編輯/u751.png"/>
+                <div id="u945_text" class="text ">
+                  <p><span>備註</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u946" class="ax_default table_cell">
+                <img id="u946_img" class="img " src="images/基本資料編輯/u752.png"/>
+              </div>
+            </div>
+
+            <!-- Unnamed (Image) -->
+            <div id="u947" class="ax_default image">
+              <img id="u947_img" class="img " src="images/基本資料編輯/u753.png"/>
+            </div>
+
+            <!-- Unnamed (Droplist) -->
+            <div id="u948" class="ax_default droplist">
+              <select id="u948_input">
+                <option value="國民身分證">國民身分證</option>
+                <option value="居留證明文件">居留證明文件</option>
+              </select>
+            </div>
+
+            <!-- Unnamed (Image) -->
+            <div id="u949" class="ax_default image">
+              <img id="u949_img" class="img " src="images/基本資料編輯/u755.png"/>
+            </div>
+
+            <!-- *居留證明文件統一字號 (Text Field) -->
+            <div id="u950" class="ax_default text_field" data-label="*居留證明文件統一字號">
+              <input id="u950_input" type="text" value=""/>
+            </div>
+
+            <!-- Unnamed (Text Field) -->
+            <div id="u951" class="ax_default text_field">
+              <input id="u951_input" type="text" value=""/>
+            </div>
+
+            <!-- Unnamed (Text Field) -->
+            <div id="u952" class="ax_default text_field">
+              <input id="u952_input" type="text" value=""/>
+            </div>
+
+            <!-- *居留證明文件統一字號 (Text Field) -->
+            <div id="u953" class="ax_default text_field" data-label="*居留證明文件統一字號">
+              <input id="u953_input" type="text" value=""/>
+            </div>
+
+            <!-- Unnamed (Droplist) -->
+            <div id="u954" class="ax_default droplist">
+              <select id="u954_input">
+                <option value="請選擇">請選擇</option>
+                <option value="自耕農">自耕農</option>
+                <option value="佃農">佃農</option>
+                <option selected value="蜂農">蜂農</option>
+              </select>
+            </div>
+
+            <!-- Unnamed (Droplist) -->
+            <div id="u955" class="ax_default droplist">
+              <select id="u955_input">
+                <option value="請選擇">請選擇</option>
+                <option value="會員">會員</option>
+                <option value="非會員">非會員</option>
+                <option value="水利會會員">水利會會員</option>
+                <option value="短期軍人">短期軍人</option>
+              </select>
+            </div>
+
+            <!-- 是否初次參加農保 (Checkbox) -->
+            <div id="u956" class="ax_default checkbox ax_default_hidden" data-label="是否初次參加農保" style="display:none; visibility: hidden">
+              <label for="u956_input" style="position: absolute; left: 0px;">
+                <div id="u956_text" class="text ">
+                  <p><span>是否初次參加農保</span></p>
+                </div>
+              </label>
+              <input id="u956_input" type="checkbox" value="checkbox"/>
+            </div>
+
+            <!-- *居留證明文件統一字號 (Text Field) -->
+            <div id="u957" class="ax_default text_field" data-label="*居留證明文件統一字號">
+              <input id="u957_input" type="text" value=""/>
+            </div>
+
+            <!-- *居留證明文件統一字號 (Text Field) -->
+            <div id="u958" class="ax_default text_field" data-label="*居留證明文件統一字號">
+              <input id="u958_input" type="text" value=""/>
+            </div>
+
+            <!-- *居留證明文件統一字號 (Text Field) -->
+            <div id="u959" class="ax_default text_field" data-label="*居留證明文件統一字號">
+              <input id="u959_input" type="text" value=""/>
+            </div>
+
+            <!-- *居留證明文件統一字號 (Text Field) -->
+            <div id="u960" class="ax_default text_field" data-label="*居留證明文件統一字號">
+              <input id="u960_input" type="text" value=""/>
+            </div>
+
+            <!-- *居留證明文件統一字號 (Text Field) -->
+            <div id="u961" class="ax_default text_field" data-label="*居留證明文件統一字號">
+              <input id="u961_input" type="text" value=""/>
+            </div>
+
+            <!-- Unnamed (Group) -->
+            <div id="u962" class="ax_default" data-left="325" data-top="503" data-width="1035" data-height="77">
+
+              <!-- Unnamed (Group) -->
+              <div id="u963" class="ax_default" data-left="325" data-top="512" data-width="100" data-height="60">
+
+                <!-- Unnamed (Radio Button) -->
+                <div id="u964" class="ax_default radio_button">
+                  <label for="u964_input" style="position: absolute; left: 0px;">
+                    <div id="u964_text" class="text " style="display:none; visibility: hidden">
+                      <p></p>
+                    </div>
+                  </label>
+                  <input id="u964_input" type="radio" value="radio" name="u964"/>
+                </div>
+
+                <!-- Unnamed (Radio Button) -->
+                <div id="u965" class="ax_default radio_button">
+                  <label for="u965_input" style="position: absolute; left: 0px;">
+                    <div id="u965_text" class="text " style="display:none; visibility: hidden">
+                      <p></p>
+                    </div>
+                  </label>
+                  <input id="u965_input" type="radio" value="radio" name="u965"/>
+                </div>
+              </div>
+
+              <!-- Unnamed (Droplist) -->
+              <div id="u966" class="ax_default droplist">
+                <select id="u966_input">
+                  <option value="未填寫">未填寫</option>
+                </select>
+              </div>
+
+              <!-- Unnamed (Droplist) -->
+              <div id="u967" class="ax_default droplist">
+                <select id="u967_input">
+                  <option value="未填寫">未填寫</option>
+                </select>
+              </div>
+
+              <!-- Unnamed (Droplist) -->
+              <div id="u968" class="ax_default droplist">
+                <select id="u968_input">
+                  <option value="未填寫">未填寫</option>
+                </select>
+              </div>
+
+              <!-- Unnamed (Text Field) -->
+              <div id="u969" class="ax_default text_field">
+                <input id="u969_input" type="text" value=""/>
+              </div>
+
+              <!-- Unnamed (Text Field) -->
+              <div id="u970" class="ax_default text_field">
+                <input id="u970_input" type="text" value=""/>
+              </div>
+            </div>
+
+            <!-- Unnamed (Group) -->
+            <div id="u971" class="ax_default" data-left="325" data-top="593" data-width="1035" data-height="77">
+
+              <!-- Unnamed (Group) -->
+              <div id="u972" class="ax_default" data-left="325" data-top="602" data-width="100" data-height="60">
+
+                <!-- Unnamed (Radio Button) -->
+                <div id="u973" class="ax_default radio_button">
+                  <label for="u973_input" style="position: absolute; left: 0px;">
+                    <div id="u973_text" class="text " style="display:none; visibility: hidden">
+                      <p></p>
+                    </div>
+                  </label>
+                  <input id="u973_input" type="radio" value="radio" name="u973"/>
+                </div>
+
+                <!-- Unnamed (Radio Button) -->
+                <div id="u974" class="ax_default radio_button">
+                  <label for="u974_input" style="position: absolute; left: 0px;">
+                    <div id="u974_text" class="text " style="display:none; visibility: hidden">
+                      <p></p>
+                    </div>
+                  </label>
+                  <input id="u974_input" type="radio" value="radio" name="u974"/>
+                </div>
+              </div>
+
+              <!-- Unnamed (Droplist) -->
+              <div id="u975" class="ax_default droplist">
+                <select id="u975_input">
+                  <option value="未填寫">未填寫</option>
+                </select>
+              </div>
+
+              <!-- Unnamed (Droplist) -->
+              <div id="u976" class="ax_default droplist">
+                <select id="u976_input">
+                  <option value="未填寫">未填寫</option>
+                </select>
+              </div>
+
+              <!-- Unnamed (Droplist) -->
+              <div id="u977" class="ax_default droplist">
+                <select id="u977_input">
+                  <option value="未填寫">未填寫</option>
+                </select>
+              </div>
+
+              <!-- Unnamed (Text Field) -->
+              <div id="u978" class="ax_default text_field">
+                <input id="u978_input" type="text" value=""/>
+              </div>
+
+              <!-- Unnamed (Text Field) -->
+              <div id="u979" class="ax_default text_field">
+                <input id="u979_input" type="text" value=""/>
+              </div>
+            </div>
+
+            <!-- *居留證明文件統一字號 (Text Field) -->
+            <div id="u980" class="ax_default text_field" data-label="*居留證明文件統一字號">
+              <input id="u980_input" type="text" value=""/>
+            </div>
+
+            <!-- Unnamed (Checkbox) -->
+            <div id="u981" class="ax_default checkbox">
+              <label for="u981_input" style="position: absolute; left: 0px;">
+                <div id="u981_text" class="text ">
+                  <p><span>同本人</span></p>
+                </div>
+              </label>
+              <input id="u981_input" type="checkbox" value="checkbox"/>
+            </div>
+
+            <!-- 短期軍人 (Dynamic Panel) -->
+            <div id="u982" class="ax_default ax_default_hidden" data-label="短期軍人" style="display:none; visibility: hidden">
+              <div id="u982_state0" class="panel_state" data-label="State1" style="">
+                <div id="u982_state0_content" class="panel_state_content">
+
+                  <!-- Unnamed (Table) -->
+                  <div id="u983" class="ax_default">
+
+                    <!-- Unnamed (Table Cell) -->
+                    <div id="u984" class="ax_default table_cell">
+                      <img id="u984_img" class="img " src="images/基本資料編輯/u719.png"/>
+                      <div id="u984_text" class="text ">
+                        <p><span style="color:#FF0000;">*</span><span style="color:#73817A;">具備申請資格條件</span></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (Table Cell) -->
+                    <div id="u985" class="ax_default table_cell">
+                      <img id="u985_img" class="img " src="images/基本資料編輯/u720.png"/>
+                    </div>
+
+                    <!-- Unnamed (Table Cell) -->
+                    <div id="u986" class="ax_default table_cell">
+                      <img id="u986_img" class="img " src="images/基本資料編輯/u747.png"/>
+                      <div id="u986_text" class="text ">
+                        <p><span style="color:#FF0000;">*</span><span style="color:#73817A;">栽培作物內容</span></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (Table Cell) -->
+                    <div id="u987" class="ax_default table_cell">
+                      <img id="u987_img" class="img " src="images/基本資料編輯/u748.png"/>
+                    </div>
+
+                    <!-- Unnamed (Table Cell) -->
+                    <div id="u988" class="ax_default table_cell">
+                      <img id="u988_img" class="img " src="images/基本資料編輯/u751.png"/>
+                      <div id="u988_text" class="text ">
+                        <p><span>備註</span></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (Table Cell) -->
+                    <div id="u989" class="ax_default table_cell">
+                      <img id="u989_img" class="img " src="images/基本資料編輯/u752.png"/>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Droplist) -->
+                  <div id="u990" class="ax_default droplist">
+                    <select id="u990_input">
+                      <option value="請選擇">請選擇</option>
+                      <option value="水稻">水稻</option>
+                      <option value="茶">茶</option>
+                      <option value="雜糧">雜糧</option>
+                      <option value="蔬菜">蔬菜</option>
+                      <option value="花卉">花卉</option>
+                      <option value="果樹">果樹</option>
+                      <option value="香草">香草</option>
+                      <option value="栽培設施">栽培設施</option>
+                      <option value="有機作物">有機作物</option>
+                      <option value="其他">其他</option>
+                    </select>
+                  </div>
+
+                  <!-- Unnamed (Rectangle) -->
+                  <div id="u991" class="ax_default button">
+                    <div id="u991_div" class=""></div>
+                    <div id="u991_text" class="text ">
+                      <p><span>新增</span></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Droplist) -->
+                  <div id="u992" class="ax_default droplist">
+                    <select id="u992_input">
+                      <option value="請選擇">請選擇</option>
+                      <option value="全年銷售金額達新台幣25萬以上">全年銷售金額達新台幣25萬以上</option>
+                      <option value="全年投入農業生產資材達新台幣15萬以上">全年投入農業生產資材達新台幣15萬以上</option>
+                      <option value="農地經營規模符合中央農業主管機關所定「實耕者經營面積認定基準」">農地經營規模符合中央農業主管機關所定「實耕者經營面積認定基準」</option>
+                    </select>
+                  </div>
+
+                  <!-- *居留證明文件統一字號 (Text Field) -->
+                  <div id="u993" class="ax_default text_field" data-label="*居留證明文件統一字號">
+                    <input id="u993_input" type="text" value=""/>
+                  </div>
+
+                  <!-- Unnamed (Image) -->
+                  <div id="u994" class="ax_default image">
+                    <img id="u994_img" class="img " src="images/基本資料編輯/u753.png"/>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
       <!-- Unnamed (Image) -->
-      <div id="u905" class="ax_default image">
-        <img id="u905_img" class="img " src="images/基本資料編輯/u905.png"/>
+      <div id="u995" class="ax_default image">
+        <img id="u995_img" class="img " src="images/基本資料編輯/u995.png"/>
       </div>
 
       <!-- 導航列 (Rectangle) -->
-      <div id="u906" class="ax_default box_2" data-label="導航列">
-        <div id="u906_div" class=""></div>
-        <div id="u906_text" class="text ">
+      <div id="u996" class="ax_default box_2" data-label="導航列">
+        <div id="u996_div" class=""></div>
+        <div id="u996_text" class="text ">
           <p><span>首頁 &gt; 保險業務管理 &gt; 保戶資料管理 &gt; 基本資料編輯</span></p>
         </div>
       </div>
