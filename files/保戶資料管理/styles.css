@@ -3285,3 +3285,28 @@
   width:214px;
   word-wrap:break-word;
 }
+#u390_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:206px;
+  height:44px;
+}
+#u390 {
+  border-width:0px;
+  position:absolute;
+  left:998px;
+  top:374px;
+  width:206px;
+  height:44px;
+}
+#u390_text {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:0px;
+  visibility:hidden;
+  word-wrap:break-word;
+}
